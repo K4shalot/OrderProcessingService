@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]>=2.0
+asyncpg
+alembic
+pydantic-settings
+aiokafka
+python-dotenv
+
+# dev
+pytest
+pytest-asyncio
+httpx
