@@ -1,17 +1,17 @@
 # OrderProcessingService
 ## Project structure
-alembic/ # database migrations
-app/
-api/routers/
-core/
-models/
-schemas/
-services/
-workers/ # outbox publisher and Kafka consumer
-main.py
-tests/
-docker-compose.yml
-Dockerfile
+- alembic/ # database migrations
+- app/
+- api/routers/
+- core/
+- models/
+- schemas/
+- services/
+- workers/ # outbox publisher and Kafka consumer
+- main.py
+- tests/
+- docker-compose.yml
+- Dockerfile
 
 ## Running the app
 
